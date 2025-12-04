@@ -4,21 +4,21 @@
 
 :root {
   /* Primary Brand Colors */
-  --jag-black: #000000;          /* Jefferson Academy Black */
-  --jag-gold: #D7CD89;           /* Jefferson Academy Gold */
-  --jag-accent: #b1a363;         /* Darker gold accent */
+  --jag-black: #05272b;          /* black teal */
+  --jag-gold: #20727c;           /* green teal */
+  --jag-accent: #0a4e57;         /* dark teal */
 
 
   /* Text Colors */
-  --text-dark: #000000;
-  --text-light: #ffffff;
-  --text-muted: #6c757d;
+  --text-dark: #0a4e57;
+  --text-light: #61ccda;
+  --text-muted: #4d97a1;
 
 
   /* Background Colors */
-  --background-light: #f8f7f2;   /* Light gold background */
-  --background-white: #ffffff;
-  --background-dark: #343a40;
+  --background-light: rgb(97, 165, 165); /* sea green */
+  --background-white: #a8e6ef;
+  --background-dark: #3bf6d7;
 }
 
 

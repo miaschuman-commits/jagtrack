@@ -1,0 +1,19 @@
+The reason I chose these colors is because they are shades of my favorite color, and they help me stay calm and confident, which gives me enough energy to work. 
+I also use the colors to represent my wrighter persona charecter. who is named after my wrighter alious.
+
+My Classes for Next Quarter:
+- A Block: [Class Name] - [8:20]
+- B Block: [Class Name] - [10:??] (or Free Period)
+- C Block: [Class Name] - [Time]
+- D Block: [Class Name] - [Time]
+
+What I Learned:
+[Write 5-8 sentences reflecting on Module 1:
+- What Bootstrap concepts made sense to you?
+- What was most challenging?
+- How do you feel about your CSS customization?
+- What would you add to JagTrack in the future?
+- How will you use this site for planning next quarter?]
+
+
+Hours Spent: [Approximate time on this module]
