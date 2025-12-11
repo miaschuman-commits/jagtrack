@@ -1,12 +1,14 @@
-/* ===== CSS VARIABLES FOR JAGTRACK THEME ===== */
-/* Official Jefferson Academy Colors: Black & Gold */
+
+
+
+/* ===== CSS VARIABLES FOR LIGHT MODE (DEFAULT) ===== */
 
 
 :root {
-  /* Primary Brand Colors */
+ /* Primary Brand Colors */
   --jag-black: #05272b;          /* black teal */
-  --jag-gold: #20727c;           /* green teal */
-  --jag-accent: #0a4e57;         /* dark teal */
+  --jag-gold: #964361;           /* green teal */
+  --jag-accent: #b79565;         /* dark teal */
 
 
   /* Text Colors */
@@ -20,6 +22,30 @@
   --background-white: #a8e6ef;
   --background-dark: #3bf6d7;
 }
+
+
+/* ===== CSS VARIABLES FOR DARK MODE ===== */
+
+
+[data-theme="dark"] {
+ /* Primary Brand Colors */
+ --jag-black: #0e6670;
+ --jag-gold: #ca9d5e;
+ --jag-accent: #970037;
+
+
+ /* Text Colors */
+ --text-dark: #ca9d5e;
+ --text-light: #61ccda;
+ --text-muted: #4d97a1;
+
+
+ /* Background Colors */
+ --background-light: #00161d;
+ --background-white: #002d39;
+ --background-dark: #02495f;
+}
+
 
 
 /* ===== BODY & GENERAL STYLES ===== */
@@ -286,4 +312,22 @@ body {
  .calendar-container {
    padding-bottom: 56.25%;
  }
+}
+
+
+
+
+#theme-toggle {
+ font-size: 1.5rem;
+ padding: 5px 10px;
+ margin-left: 10px;
+ border-radius: 50%;
+ transition: all 0.3s ease;
+}
+
+
+#theme-toggle:hover {
+ background-color: #043949;
+ transform: scale(1.1);
+ border-color: #4d97a1;
 }
